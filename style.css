@@ -300,31 +300,6 @@ h1 {
     transform: translateY(-2px);
 }
 
-/* Terminal */
-.terminal {
-    background: rgba(0, 0, 0, 0.3);
-    border: 1px solid #333;
-    border-radius: 6px;
-    padding: 20px;
-    margin: 20px 0;
-    font-family: 'Courier New', monospace;
-    position: relative;
-    color: var(--soft-teal);
-    line-height: 1.8;
-    white-space: pre-line; /* This will preserve line breaks */
-}
-
-.terminal::before {
-    content: '~/portfolio $';
-    position: absolute;
-    top: -10px;
-    left: 15px;
-    background: var(--dark-bg);
-    padding: 0 10px;
-    color: var(--soft-blue);
-    font-size: 0.8em;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
     body {
