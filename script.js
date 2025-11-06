@@ -47,26 +47,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     window.addEventListener('scroll', setActiveLink);
     
-    // Typewriter effect for terminal
-    const terminals = document.querySelectorAll('.terminal');
-    
-    terminals.forEach(terminal => {
-        const originalText = terminal.innerHTML;
-        terminal.innerHTML = '';
-        let i = 0;
-        
-        function typeWriter() {
-            if (i < originalText.length) {
-                terminal.innerHTML += originalText.charAt(i);
-                i++;
-                setTimeout(typeWriter, 20);
-            }
-        }
-        
-        // Start typewriter after a delay
-        setTimeout(typeWriter, 1000);
-    });
-    
     // Project hover effects
     const projects = document.querySelectorAll('.project');
     
