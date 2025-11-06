@@ -310,6 +310,8 @@ h1 {
     font-family: 'Courier New', monospace;
     position: relative;
     color: var(--soft-teal);
+    line-height: 1.8;
+    white-space: pre-line; /* This will preserve line breaks */
 }
 
 .terminal::before {
@@ -321,15 +323,6 @@ h1 {
     padding: 0 10px;
     color: var(--soft-blue);
     font-size: 0.8em;
-}
-
-.terminal div {
-    margin-bottom: 5px;
-    line-height: 1.4;
-}
-
-.terminal div:last-child {
-    margin-bottom: 0;
 }
 
 /* Responsive */
