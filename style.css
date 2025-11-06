@@ -313,7 +313,7 @@ h1 {
 }
 
 .terminal::before {
-    content: '~/portfolio $';
+    content: '~/about me $';
     position: absolute;
     top: -10px;
     left: 15px;
