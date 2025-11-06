@@ -309,11 +309,12 @@ h1 {
     margin: 20px 0;
     font-family: 'Courier New', monospace;
     position: relative;
-    color: var(--text-secondary);
+    color: var(--soft-teal); /* This will make all terminal text the teal color */
+    line-height: 1.8;
 }
 
 .terminal::before {
-    content: '~/about me $';
+    content: '~/portfolio $';
     position: absolute;
     top: -10px;
     left: 15px;
